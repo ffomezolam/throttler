@@ -1,7 +1,7 @@
 /**
  * A collection of utility functions for limiting high-frequency invocations.
  *
- * @module Throttler
+ * @module throttler
  */
 (function(name, that, definition) {
     if(typeof module !== 'undefined' && module.exports) module.exports = definition(/*require(deps)*/);
